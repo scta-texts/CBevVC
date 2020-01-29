@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 1 [Venice 1570 Transcription]</title>
+        <author ref="#GeoffreyOfTrani">Geoffrey of Trani</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Titulus 1 [Venice 1570 Transcription]</title>
+          <date when="2020-01-29">January 29, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-vnhQWE">Venice 1570</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="71"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CBevVC-d1e60">
+        <head xml:id="CBevVC-d1e60-Hd1e97">Titulus 1</head>
+        <head xml:id="CBevVC-d1e60-Hd1e100" type="question-title">De summa trinitate et fide catholica</head>
+        <div xml:id="CBevVC-d1e60-Dd1e103">
+          <head xml:id="CBevVC-d1e60-Hd1e105">1</head>
+          <head xml:id="CBevVC-d1e60-Hd1e108" type="question-title">Decretalium nova compilatio quare et a quo facta fuerit</head>
+          <p xml:id="CBevVC-d1e60-d1e111"><!--Summa_in_titulos_decretalium_Hac_postera-0071.xml-->
+            <pb ed="#V" n="71"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>POST prooemium, in quo breui-  
+            <lb ed="#V" n="2"/>ter edocemur * quare haec noua 
+            <lb ed="#V" n="3"/>compilatio facta sit veteri disso- 
+            <lb ed="#V" n="4"/>luta, uidelicet quia diuersae constitutio-  
+            <lb ed="#V" n="5"/>nes &amp; decretales epistolae summorum pon 
+            <lb ed="#V" n="6"/>tificum in diversa sparsae uolumina, qua- 
+            <lb ed="#V" n="7"/>rum aliquae propter nimiam similitudi- 
+            <lb ed="#V" n="8"/>nem, &amp; quaedam propter contrarietatem, 
+            <lb ed="#V" n="9"/>nonnullae etiam ob sui prolixitatem con 
+            <lb ed="#V" n="10"/>fusionem inducere uidebantur; aliquae 
+            <lb ed="#V" n="11"/>uero uagabantur extra uolumina supra- 
+            <lb ed="#V" n="12"/>dicta, quae tanquam incertae frcquenter 
+            <lb ed="#V" n="13"/>in iudicijs tacillabant; Et ideo Graego- 
+            <lb ed="#V" n="14"/>rius Papa nonus piae memoriae ad utili-  
+            <lb ed="#V" n="15"/>tatem publicam in unum uolumen rese- 
+            <lb ed="#V" n="16"/>catis superfluis mandauit redigi, adiectis  
+            <lb ed="#V" n="17"/>suis constitutionis, per quas nonnulla 
+            <lb ed="#V" n="18"/>quae in prioribus erant dubia, declaran- 
+            <lb ed="#V" n="19"/>tur, ut in eodem prooemio continetur.
+          </p>
+        </div>
+        <div xml:id="CBevVC-d1e60-Dd1e161">
+          <head xml:id="CBevVC-d1e60-Hd1e163">2</head>
+          <head xml:id="CBevVC-d1e60-Hd1e166" type="question-title">Rubrica haec prima ponitur de Summa Trinitate et fide catholica, et quare</head>
+          <p xml:id="CBevVC-d1e60-d1e169">
+            <lb ed="#V" n="20"/><pc type="#pilcrow"/>Ponitur prima rubrica de Summa Tri. 
+            <lb ed="#V" n="21"/>&amp; fide catho. nec sine ministerio ponitur  
+            <lb ed="#V" n="22"/>primo loco, ipsa * enim est uniuersorum 
+            <lb ed="#V" n="23"/>principium, ut infra capit. primo in princ. 
+            <lb ed="#V" n="24"/>ab ea elementa &amp; eorum dispositio pro- 
+            <lb ed="#V" n="25"/>ducta sunt in orbem terrarum, ut. C. de 
+            <lb ed="#V" n="26"/>ue. iur. enu. I. in princ. Haec Sancta Tri 
+            <lb ed="#V" n="27"/>nitas primam per Moysen &amp; alios pro- 
+            <lb ed="#V" n="28"/>phetas doctrinam praebuit humano ge- 
+            <lb ed="#V" n="29"/>neri salutarem, ut infra. c. 1. §. haec sancta. 
+            <lb ed="#V" n="30"/>Et licet de hac materia non humano ore 
+            <lb ed="#V" n="31"/>loquendum sit, sed diuino. de conse. dist. 
+            <lb ed="#V" n="32"/>2. c. in Christo patri.
+          </p>
+        </div>
+        <div xml:id="CBevVC-d1e60-Dd1e202">
+          <head xml:id="CBevVC-d1e60-Hd1e204">3</head>
+          <head xml:id="CBevVC-d1e60-Hd1e207" type="question-title">Sancta Trinitas cur summa vocetur</head>
+          <p xml:id="CBevVC-d1e60-d1e210">
+            Aliqua tamen sub 
+            <lb ed="#V" n="33"/>compendio uideamus: Et primo * cur sum 
+            <lb ed="#V" n="34"/>ma dicatur, &amp; quidem quia maior est,. 
+            <lb ed="#V" n="35"/>prior est omnibus rebus, ut superius di- 
+            <lb ed="#V" n="36"/>ctum est.
+          </p>
+        </div>
+        <div xml:id="CBevVC-d1e60-Dd1e223">
+          <head xml:id="CBevVC-d1e60-Hd1e225">4</head>
+          <head xml:id="CBevVC-d1e60-Hd1e228" type="question-title">Trinitas quare sic dicatur</head>
+          <p xml:id="CBevVC-d1e60-d1e231">
+            * Trinitas dicitur eo, quod licet  
+            <lb ed="#V" n="37"/>una sit substantia, essentia, seu natura di- 
+            <lb ed="#V" n="38"/>uina. Est tamen pater qui generat, filius 
+            <lb ed="#V" n="39"/>qui gignitur, &amp; spiritus sanctus qui pro- 
+            <lb ed="#V" n="40"/>cedit, ut distinctiones sint in personis, &amp; 
+            <lb ed="#V" n="41"/>unitas in natura. Nam Licet alius sit pa 
+            <lb ed="#V" n="42"/>ter, alius filius, alius spiritus sanctus, non 
+            <lb ed="#V" n="43"/>tamen aliud. Sed id quod est pater, est &amp; 
+            <lb ed="#V" n="44"/>filius idem, &amp; omnino est &amp; spiritus san 
+            <lb ed="#V" n="45"/>ctus, ut infra <ref xml:id="CBevVC-d1e60-Rd1e252">eo. c. damnamus</ref>.
+          </p>
+        </div>
+        <div xml:id="CBevVC-d1e60-Dd1e257">
+          <head xml:id="CBevVC-d1e60-Hd1e259">5</head>
+          <head xml:id="CBevVC-d1e60-Hd1e262" type="question-title">Fides catholica quae sit</head>
+          <p xml:id="CBevVC-d1e60-d1e265">
+            * Fides au- 
+            <lb ed="#V" n="46"/>tem catholica haec est, quae in symbolo 
+            <lb ed="#V" n="47"/>continetur, quam Romana tenet eccle- 
+            <!--Summa_in_titulos_decretalium_Hac_postera-0071.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="48"/>sia. 24. q. 1. hac est fides quam firmites 
+            <lb ed="#V" n="49"/>credere, &amp; simpliciter confiteri debemus. 
+            <lb ed="#V" n="50"/>ut intra eod. cap. 1. in princip. &amp; 23. di. c. 
+            <lb ed="#V" n="51"/>qui episcopus.
+          </p>
+        </div>
+        <div xml:id="CBevVC-d1e60-Dd1e286">
+          <head xml:id="CBevVC-d1e60-Hd1e288">6</head>
+          <head xml:id="CBevVC-d1e60-Hd1e291" type="question-title">Disputare publice non licet de fide catholica cum hominibus aliena communionis</head>
+          <p xml:id="CBevVC-d1e60-d1e294">
+            * de qua turbis adunatis 
+            <lb ed="#V" n="52"/>publice disputare non licet. ut. C. eod, tit. 
+            <lb ed="#V" n="53"/>l. nemo, in princ.
+          </p>
+        </div>
+        <div xml:id="CBevVC-d1e60-Dd1e302">
+          <head xml:id="CBevVC-d1e60-Hd1e304">7</head>
+          <p xml:id="CBevVC-d1e60-d1e307">
+            * Soliciti enim esse de- 
+            <lb ed="#V" n="54"/>bemus ut margaritas nostras ante porcos 
+            <lb ed="#V" n="55"/>non mittamus. ut. 11. q. 3 nolite recedere. 
+            <lb ed="#V" n="56"/>§. nolite mittere. Et ne de secretioribus 
+            <lb ed="#V" n="57"/>diuinae sententiae omnibus proloquamur.  
+            <lb ed="#V" n="58"/>ut. 53. di. in mandatis: Nec magistris ca- 
+            <lb ed="#V" n="59"/>nonum &amp; custodibus fas est intre certa- 
+            <lb ed="#V" n="60"/>men cum hominibus alienae communio-  
+            <lb ed="#V" n="61"/>nis ut, 24. q. 3. c. cum quibus, in fi. quod in- 
+            <lb ed="#V" n="62"/>tellige cum quis publice de fide conten- 
+            <lb ed="#V" n="63"/>dit, &amp; ex hoc tumultus &amp; perfidiae occa- 
+            <lb ed="#V" n="64"/>sionem quaerit. ut dicit lex praeal. nemo, 
+            <lb ed="#V" n="65"/>Aliter in fide instruendi sunt simplices. 
+            <lb ed="#V" n="66"/>ut. 10. q. 1.c. placuit, &amp; haeretici confu- 
+            <lb ed="#V" n="67"/>tandi. ut. 19. dis. c. secundum, de con. dis. 2: 
+            <lb ed="#V" n="68"/>In Christo pater, &amp; in plerisque capitulis  
+            <lb ed="#V" n="69"/>in eadem dis. positis. &amp; C. de episcopus, &amp; 
+            <lb ed="#V" n="70"/>cler. I. quoniam. Non solum autem uir 
+            <lb ed="#V" n="71"/>gines &amp; continentes uerum etiam coniu 
+            <lb ed="#V" n="72"/>gati per fidem rectam &amp; operationem  
+            <lb ed="#V" n="73"/>bonam Deo placentes ad aeternam me- 
+            <lb ed="#V" n="74"/>rentur beatitudinem peruenire. ut infra 
+            <lb ed="#V" n="75"/>c. firmiter, in fi. Violatores autem fidci in 
+            <lb ed="#V" n="76"/>aeternum peribunt saluis poenis tempo-  
+            <lb ed="#V" n="77"/>ralibus quae talibus imponuntur ut dice- 
+            <lb ed="#V" n="78"/>mus. infra de haere.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
